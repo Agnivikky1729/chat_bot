@@ -7,7 +7,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 app = Flask(__name__)
 
 
-@app.route('/vocabulary', methods=['POST'])
+@app.route('/', methods=['POST'])
 def vocabulary():
     """
     WhatsApp Twilio Webhook
